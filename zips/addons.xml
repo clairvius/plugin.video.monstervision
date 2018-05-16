@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.monstervision" name="Clairvius Videos Monstervision" version="0.0.8" provider-name="Jeff">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		 <import addon="script.module.urlresolver" version="3.0.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="playvideo.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Full Horror Episodes of TNT's Monstervision with Joe Bob Briggs</summary>
+		<description lang="en">This Plugin will be full of every episodes of TNT's Monstervision that i can find. Each episode will be edited in with the uncut version of the movies.</description>
+		<platform>all</platform>
+		<forum></forum>
+		<website></website>
+		<news></news>
+		<genre>movies,tvshows,usa</genre>
+		<video_guide></video_guide>
+		<video_preview></video_preview>
+	</extension>
+</addon>
+</addons>
